@@ -1,11 +1,11 @@
 # coding: utf-8
 
-a = int(input("Dime un numero"))
-b = int(input("Dime un numero mayor"))
+num1= int(input("Dime un numero"))
+num2= int(input("Dime un numero mayor"))
 
-while (a>=b):
-	b= input ("Intentalo de nuevo:")
-	print "Los numeros que has escrito" ,a,b 
+while (num1>=num2):
+	num2= input ("Intentalo de nuevo:")
+	print "Los numeros que has escrito" ,num1,num2
 	
 	
 
